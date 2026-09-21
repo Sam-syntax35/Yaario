@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Fraunces', Georgia, serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    margin: 0;
+    min-height: 100vh;
+    background-color: #FAF7F2;
+    color: #141416;
+    overflow-x: hidden;
+  }
+
+  * {
+    border-color: #EBE6DF;
+  }
+}
+
+/* Editorial typography utility */
+.font-editorial {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+/* Soft paper-like warm cards */
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EBE6DF;
+  box-shadow: 0 1px 2px rgba(20, 20, 22, 0.03), 0 4px 16px rgba(20, 20, 22, 0.03);
+}
+
+.editorial-card-interactive {
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card-interactive:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(20, 20, 22, 0.06), 0 2px 6px rgba(20, 20, 22, 0.03);
+}
+
+/* Constellation subtle float and glow */
+@keyframes subtle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float-slow {
+  animation: subtle-float 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: subtle-float 7s ease-in-out infinite reverse;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 3.5s ease-in-out infinite;
+}

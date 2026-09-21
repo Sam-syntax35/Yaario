@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- 
+    YAARIO Mark: Abstract "Y" Convergence
+    Two paths flowing from separate origins and converging into a single unified social stem.
+    Pure geometry, iconic silhouette, works in one color at 16px through 512px.
+  -->
+  <path
+    d="M 6.5 6.5 C 6.5 13.5, 12 17.5, 16 18.5"
+    stroke="#FF5364"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M 25.5 6.5 C 25.5 13.5, 20 17.5, 16 18.5 V 23 C 16 26.2, 13.2 27.2, 10 26.5"
+    stroke="#FF5364"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
