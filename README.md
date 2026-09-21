@@ -72,3 +72,22 @@ Users can create a profile, choose their interests and lifestyle preferences, di
         ┌───────┴────────┐
         ▼                ▼
    MongoDB Atlas      Razorpay
+
+---
+
+## 🔄 User Flow
+
+```text
+Landing Page
+     ↓
+Profile Onboarding
+     ↓
+Interests + Lifestyle
+     ↓
+Create Profile
+     ↓
+Discover Buddies
+     ↓
+View Match
+     ↓
+Unlock Connection
