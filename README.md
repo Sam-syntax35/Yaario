@@ -11,6 +11,15 @@
 </p>
 
 ---
+---
+
+## 🎥 Demo
+
+▶️ **[Watch the Yaario Demo on YouTube](https://www.youtube.com/watch?v=hY8AKzQxnno)**
+
+A short walkthrough showcasing the complete Yaario user flow, from onboarding and profile creation to buddy discovery and connection unlocking.
+
+---
 
 ## 🚀 What is Yaario?
 
@@ -85,6 +94,9 @@ Profile Onboarding
 Interests + Lifestyle
      ↓
 Create Profile
+
+<img width="1912" height="897" alt="Screenshot 2026-09-21 012049" src="https://github.com/user-attachments/assets/c62d6771-fe40-4e5f-860c-24372e2fd676" />
+
      ↓
 Discover Buddies
      ↓
